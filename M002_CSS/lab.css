@@ -1,0 +1,41 @@
+/*
+Folgende Regeln sollen sollen für das Boxmodel aufgestellt werden: 
+
+- Companyname: Hintergrundfarbe rot; Farbe weiß
+- Navigationsleiste: Hintergrundfarbe blau; Farbe weiß
+- Main-Content-Bereich. Hintergrundfarbe gelb; Farbe schwarz
+- Main-Footer: Hintergrundfarbe grun; Farbe Schwarz
+
+- Main-Footer: Ein Border mit der Dicke von 2px soll aufgestellt. Die Linienart
+  soll gestrichelt sein.
+- Main-Content-Bereich: Content soll in die Mitte.
+*/
+div{
+    background-color: red;
+    color: white;
+}
+nav{
+    background-color: blue;
+    color: white;
+}
+main{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
+footer{
+    background-color: green;
+    color: black;
+}
+
+/*
+Das Element mit der ID "child" soll die Hintergrundfarbe rot erhalten.
+Alle Elemente mit der Klasse "center" sollen mittig stehen.
+*/
+
+#child{
+    background-color: red;
+}
+.center{
+    text-align:center;
+}
