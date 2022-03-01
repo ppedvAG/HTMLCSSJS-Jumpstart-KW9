@@ -7,3 +7,17 @@ Erstellen Sie eine Funktion, die die Rückgabewerte beider Funktionen werden mul
 Frage:
 Darf ich "console.log(ergebnis)" außerhalb der Funktion schreiben oder nicht?
  */
+
+function einfacheFunktion(){
+    return ergebnis1 = 5;
+}
+
+function parameterFunktion(para1 = 1, para2 = 2){
+    return para1 + para2;
+}
+
+function neueFunktion(){
+    let einfacheFunktion = einfacheFunktion();
+    let parameterFunktion = parameterFunktion();
+    console.log(einfacheFunktion + parameterFunktion);
+}
