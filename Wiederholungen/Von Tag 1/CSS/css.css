@@ -1,0 +1,34 @@
+/*
+    Die Aufgabe bezieht sich auf das zuvor erstellte HTML Dokument, dass Sie erstellt haben.
+    Folgende Regeln sollen aufgestellt werden: 
+    - Das Heading soll unterstrichen sein und mittig stehen
+    
+    - Der Border des Paragraphen soll angzeigt werden. Die Dicke soll 2px sein, die Linienart gestrichelt (dashed) und die Farbe schwarz soll sein.
+    
+    - Die jeweiligen Unterpunkte der Personen bzw. die Anrede erhalten die Hintergrundfarbe gelb. Die Breite soll je nach Inhalt angepasst werden.
+      Tipp: Verwenden Sie für die Regel Klassen!
+    - Die Border der Liste soll angezeigt werden. Die Dicke soll 2px sein, die Linienart durchgezogen (solid) und die Farbe rot soll sein.
+*/
+
+h2{
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+p{
+    border: 2px dashed black;
+}
+
+.anrede{
+    background-color: yellow;
+    width: fit-content;
+}
+
+#list{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    border: 2px solid red;
+}
