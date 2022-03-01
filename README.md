@@ -12,3 +12,10 @@ Bei Fragen E-Mail an alemm@ppedv.de oder ein Issue platzieren. Viel Spaß! : )
 - [ ] M002 | CSS
 - [ ] M003 | JavaScript Basics
 - [ ] M004 | JavaScript Funktionen
+
+## Tag 2
+
+- [ ] M005 | JavaScript Kontrollstrukturen
+- [ ] M006 | JavaScript Objekte
+- [ ] M007 | JavaScript Vordefinierte Objekte
+- [ ] M008 | JavaScript DOM
