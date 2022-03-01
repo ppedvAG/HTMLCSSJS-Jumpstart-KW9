@@ -18,4 +18,3 @@ Bei Fragen E-Mail an alemm@ppedv.de oder ein Issue platzieren. Viel Spaß! : )
 - [ ] M005 | JavaScript Kontrollstrukturen
 - [ ] M006 | JavaScript Objekte
 - [ ] M007 | JavaScript Vordefinierte Objekte
-- [ ] M008 | JavaScript DOM
