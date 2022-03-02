@@ -23,3 +23,7 @@ function submit(){
     return Person;
 }
 
+window.onload = function(){
+    var btn = document.getElementById("btn-default");
+    btn.addEventListener("click", submit);
+}
