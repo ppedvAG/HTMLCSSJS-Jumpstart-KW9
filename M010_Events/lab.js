@@ -9,7 +9,6 @@ function previewHtml() {
 function appendHtml() {
     let newDiv = document.createElement("div");
     newDiv.innerHTML = editor.value;
-    newDiv.addEventListener("click", removeDiv);
     document.body.appendChild(newDiv);
     editor.value = "";
 }
