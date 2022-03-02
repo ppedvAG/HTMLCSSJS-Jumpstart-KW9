@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/Labs/M009/m009.js"></script>
+    <title>M010</title>
+</head>
+<body>
+    <h1>Sign In</h1>
+    <form>
+        <p>Name: <input id="name" type="text"></p>
+        <p>Geburtsdatum: <input id="date" type="date"></p>
+        <p>E-Mail: <input id="email" type="email"></p>
+        <p>Passwort: <input id="password" type="password"></p>
+        <p>Telefonnummer: <input id="number" type="tel"></p>
+        <ul>
+            <li>
+                <input id="male" type="checkbox"> männlich
+            </li>
+            <li>
+                <input id="female" type="checkbox"> weiblich
+            </li>
+            <li>
+                <input id="diverse" type="checkbox"> divers
+            </li>
+        </ul>
+        <button id="btn-default" onclick="submit(); return false">Bestätigen</button>
+    </form>
+    <p id="objekt"></p>
+</body>
+</html>
